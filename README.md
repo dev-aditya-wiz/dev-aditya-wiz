@@ -1,6 +1,6 @@
 # Hi, I'm Aditya Kumar Sharma 👋
 
-### Aspiring AI/ML Engineer
+### Aspiring AI/ML Engineer 
 
 I'm currently learning Python, Git & GitHub, Web Development, and Figma,
 with a growing focus on Artificial Intelligence and Machine Learning.
@@ -45,6 +45,6 @@ Coming soon...
 
 ## 📫 Connect With Me
 
-- GitHub
-- LinkedIn
-- Portfolio
+- GitHub     : https://github.com/dev-aditya-wiz
+- LinkedIn   : https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/
+- Portfolio  : 
