@@ -1,47 +1,93 @@
-# Hi, I'm Aditya Kumar Sharma 👋
+<img width="1792" height="400" alt="banner" src="https://github.com/user-attachments/assets/74af4d45-80ca-42b3-8365-53da52c7e188" />
+<h1 align="center">Hi, I'm Aditya 👋</h1>
 
-### Aspiring AI/ML Engineer 
+<h3 align="center">Aspiring AI/ML Engineer</h3>
 
-I'm currently learning Python, Git & GitHub, Web Development, and Figma,
-with a growing focus on Artificial Intelligence and Machine Learning.
+<p align="center">
+  Python • Machine Learning • Artificial Intelligence
+</p>
 
 ---
 
-## 🧠 Focus
+## About Me
 
-- Python
-- Machine Learning
-- Artificial Intelligence
-- Data Science
+- 🌱 Currently learning Python, Git & GitHub, Web Development, and Figma
+- 🤖 Working toward Artificial Intelligence & Machine Learning
+- 💻 Building projects to strengthen my development skills
+- 📚 Continuously learning and improving
 
-## 🛠️ Technologies & Tools
+---
 
-- Python
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-- Figma
+<h2>🛠️ Technologies & Tools</h2>
 
-## 📚 Currently Learning
+<h3>Languages</h3>
 
-- Python
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,java,js" />
+</p>
+
+<h3>Frontend Development</h3>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,nextjs" />
+</p>
+
+<h3>Backend Development</h3>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
+
+<h3>Databases</h3>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb" />
+</p>
+
+<p>
+  <strong>NoSQL</strong>
+</p>
+
+<h3>APIs</h3>
+
+<p>
+  REST APIs • API Integration
+</p>
+
+<h3>Git & Deployment</h3>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github" />
+</p>
+
+<p>
+  Git • GitHub • Deployment
+</p>
+
+<h3>Design</h3>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=figma" />
+</p>
+
+---
+
+## 🧠 Computer Science & AI
+
 - Data Structures & Algorithms
-- Machine Learning
-- AI
+- Database Management Systems
+- Digital Logic & Design
+- Foundation of AI
+- Compiler Design
+- Software Architecture (HLD & LLD)
+- Engineering Mathematics
 
-## 🚀 Projects
+## ☁️ Cloud & DevOps
 
-Coming soon...
+- Cloud Computing
+- DevOps Essentials
 
-## 🏆 Achievements
-
-Coming soon...
-
-## 📊 GitHub Activity
-
-Coming soon...
+---
 
 ## 📫 Connect With Me
 
