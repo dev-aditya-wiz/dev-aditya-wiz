@@ -1,0 +1,22 @@
+name: Comet Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate comet contribution graph
+        uses: kiaquila/comet-contribution-graph@v1
+        with:
+          username: dev-aditya-wiz
