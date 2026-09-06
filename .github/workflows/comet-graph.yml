@@ -1,4 +1,4 @@
-name: Comet Contribution Graph
+name: comet-graph
 
 on:
   schedule:
@@ -13,10 +13,8 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
+      - uses: actions/checkout@v6
 
-      - name: Generate comet contribution graph
-        uses: kiaquila/comet-contribution-graph@v1
+      - uses: kiaquila/comet-contribution-graph@v1
         with:
           username: dev-aditya-wiz
