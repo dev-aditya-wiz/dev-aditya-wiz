@@ -18,6 +18,13 @@
 
 ---
 
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=dev-aditya-wiz&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false)<br/>
+![](https://streak-stats.demolab.com/?user=dev-aditya-wiz&theme=shadow_green&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=dev-aditya-wiz&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+---
+
 <h2>🛠️ Technologies & Tools</h2>
 
 <h3>Languages</h3>
@@ -72,22 +79,9 @@
 
 ---
 
-## 🧠 Computer Science & AI
 
-- Data Structures & Algorithms
-- Database Management Systems
-- Digital Logic & Design
-- Foundation of AI
-- Compiler Design
-- Software Architecture (HLD & LLD)
-- Engineering Mathematics
-
-## ☁️ Cloud & DevOps
-
-- Cloud Computing
-- DevOps Essentials
-
----
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/PQKGBmRw4) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/_.a.d.i.t.y.a._s1/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/) 
 
 ## 📫 Connect With Me
 
