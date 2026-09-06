@@ -1,3 +1,4 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,35:215D6E,65:0E7490,100:22C55E&height=85&section=header" width="100%" />
 <img width="2320" height="464" alt="image" src="https://github.com/user-attachments/assets/fbc72179-fa50-431d-bcc6-4db47a0fafe0" />
 
 <h3 align="center">Aspiring AI/ML Engineer</h3>
@@ -7,7 +8,6 @@
 </p>
 
 ---
-
 ## About Me
 
 - 🌱 Currently learning Python, Git & GitHub, Web Development, and Figma
@@ -95,3 +95,7 @@
 - GitHub     : https://github.com/dev-aditya-wiz
 - LinkedIn   : https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/
 - Portfolio  : 
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22C55E,35:0E7490,65:215D6E,100:0F172A&height=90&section=footer" width="100%" />
+</p>
