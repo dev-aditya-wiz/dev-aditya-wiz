@@ -18,9 +18,17 @@
 ---
 
 # 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=dev-aditya-wiz&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://streak-stats.demolab.com/?user=dev-aditya-wiz&theme=shadow_green&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=dev-aditya-wiz&theme=shadow_green&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+
+<div align="center">
+
+<img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dev-aditya-wiz&theme=radical">
+<img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dev-aditya-wiz&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dev-aditya-wiz&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dev-aditya-wiz&theme=radical">
+<img height="160em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dev-aditya-wiz&theme=radical&utcOffset=8">
+<img height="169em" src="https://github-readme-streak-stats.herokuapp.com/?user=dev-aditya-wiz&theme=radical">
+
+</div>
 
 ---
 
