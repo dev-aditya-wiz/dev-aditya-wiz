@@ -1,10 +1,9 @@
-<img width="1792" height="400" alt="banner" src="https://github.com/user-attachments/assets/74af4d45-80ca-42b3-8365-53da52c7e188" />
-<h1 align="center">Hi, I'm Aditya 👋</h1>
+<img width="1147" height="256" alt="image" src="https://github.com/user-attachments/assets/81950211-d5fc-4dd3-8446-fbb48f7f1b0c" />
 
 <h3 align="center">Aspiring AI/ML Engineer</h3>
 
 <p align="center">
-  Python • Machine Learning • Artificial Intelligence
+  Artificial Intelligence • Machine Learning  
 </p>
 
 ---
