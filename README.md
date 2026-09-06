@@ -1,4 +1,4 @@
-<img width="1147" height="256" alt="image" src="https://github.com/user-attachments/assets/81950211-d5fc-4dd3-8446-fbb48f7f1b0c" />
+<img width="2320" height="464" alt="image" src="https://github.com/user-attachments/assets/fbc72179-fa50-431d-bcc6-4db47a0fafe0" />
 
 <h3 align="center">Aspiring AI/ML Engineer</h3>
 
