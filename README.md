@@ -19,6 +19,18 @@
 
 ---
 
+## ☄️ Comet Contribution Graph
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/dev-aditya-wiz/dev-aditya-wiz/comet-graph/comet.svg"
+    alt="Cinematic Comet Contribution Graph"
+    width="100%"
+  />
+</p>
+
+---
+
 <h1 align="center">📊 GitHub Stats:</h1>
 
 <div align="center">
