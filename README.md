@@ -9,7 +9,8 @@
 </p>
 
 ---
-## About Me
+
+<h1 align="left">About Me:</h1>
 
 - 🌱 Currently learning Python, Git & GitHub, Web Development, and Figma
 - 🤖 Working toward Artificial Intelligence & Machine Learning
@@ -18,7 +19,7 @@
 
 ---
 
-# 📊 GitHub Stats:
+<h1 align="center">📊 GitHub Stats:</h1>
 
 <div align="center">
 <img height="158em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dev-aditya-wiz&theme=radical">
@@ -31,31 +32,22 @@
 
 ---
 
-<h2>🛠️ Technologies & Tools</h2>
+<h1 align="center">🛠️ Technologies & Tools</h1>
 
-<table>
+<table align="center">
 <tr>
-
-<td width="65%" valign="top">
-
+<td width="300" valign="top">
 <h3>Languages</h3>
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,java,js" />
-</p>
-
+<p><img src="https://skillicons.dev/icons?i=python,cpp,java,js" /></p>
 <h3>Frontend Development</h3>
-
-<p>
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,nextjs" /></p>
+<p><img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,nextjs" /></p>
 <h3>Backend Development</h3>
 <p><img src="https://skillicons.dev/icons?i=nodejs,express" /></p>
 <h3>Databases</h3>
 <p><img src="https://skillicons.dev/icons?i=mysql,mongodb" /></p>
 </td>
-<td width="35%" valign="top">
-<h3>NoSQL</h3>
-<p>MongoDB</p>
+  
+<td width="300" valign="top">
 <h3>APIs</h3>
 <p>REST APIs • API Integration</p>
 <h3>Git & Deployment</h3>
@@ -66,33 +58,13 @@
 </td>
 </tr>
 </table>
----
-<h2>🛠️ Technologies & Tools</h2>
-
-<h3>Languages</h3>
-<p><img src="https://skillicons.dev/icons?i=python,cpp,java,js" /></p>
-<h3>Frontend Development</h3>
-<p><img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,nextjs" /></p>
-<h3>Backend Development</h3>
-<p><img src="https://skillicons.dev/icons?i=nodejs,express" /></p>
-
-
-<h3>Databases</h3>
-<p><img src="https://skillicons.dev/icons?i=mysql,mongodb" /></p>
-<p><strong>NoSQL</strong></p>
-<h3>APIs</h3>
-<p>REST APIs • API Integration</p>
-<h3>Git & Deployment</h3>
-<p><img src="https://skillicons.dev/icons?i=git,github" /></p>
-<p>Git • GitHub • Deployment</p>
-<h3>Design</h3>
-<p><img src="https://skillicons.dev/icons?i=figma" /></p>
 
 ---
-
 
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/PQKGBmRw4) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/_.a.d.i.t.y.a._s1/) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/) 
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/PQKGBmRw4) 
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://www.instagram.com/_.a.d.i.t.y.a._s1/) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/) 
 
 ## 📫 Connect With Me
 
