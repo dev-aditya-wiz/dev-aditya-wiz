@@ -19,7 +19,7 @@
 
 ---
 
-## ☄️ Comet Contribution Graph
+<h1 align="center">☄️ Comet Contribution Graph</h1>
 
 <p align="center">
   <img
@@ -80,6 +80,7 @@
 
 ## 📫 Connect With Me
 
+- Email      : aditya.0.kumar.sharma@gmail.com
 - GitHub     : https://github.com/dev-aditya-wiz
 - LinkedIn   : https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/
 - Portfolio  : 
