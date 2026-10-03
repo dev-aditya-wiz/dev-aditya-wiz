@@ -52,7 +52,7 @@
 
   <text x="48" y="48" fill="#38BDF8" font-size="12" letter-spacing="4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">COMET GRAPH</text>
   <text x="48" y="80" fill="#F8FAFC" font-size="22" font-weight="700" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">Consistency - Activity - Growth - Progress</text>
-  <text x="48" y="108" fill="#86EFAC" font-size="13" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">Live contribution data renders below after you replace YOUR_GITHUB_USERNAME.</text>
+  <text x="48" y="108" fill="#86EFAC" font-size="13" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">dev-aditya-wiz</text>
 
   <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
     <rect x="48" y="310" width="140" height="28" rx="14" fill="#050505" stroke="#2563EB"/>
