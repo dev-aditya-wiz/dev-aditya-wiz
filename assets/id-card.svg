@@ -59,16 +59,16 @@
 
   <text x="280" y="118" fill="#F8FAFC" font-size="32" font-weight="700" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" filter="url(#cardGlow)">ADITYA KUMAR SHARMA</text>
   <text x="280" y="150" fill="#38BDF8" font-size="16" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">AI/ML Engineer | Generative AI | Machine Learning</text>
-  <text x="280" y="180" fill="#F8FAFC" opacity="0.8" font-size="14" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">[YOUR TAGLINE]</text>
+  <text x="280" y="180" fill="#F8FAFC" opacity="0.8" font-size="14" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">Code → Models → Intelligent Systems</text>
 
   <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">
     <rect x="280" y="200" width="640" height="1" fill="#2563EB" opacity="0.4"/>
     <text x="280" y="230" fill="#86EFAC">LOCATION</text>
-    <text x="400" y="230" fill="#F8FAFC">[YOUR LOCATION]</text>
+    <text x="400" y="230" fill="#F8FAFC">Bokaro Steel City, Jharkhand</text>
     <text x="280" y="258" fill="#86EFAC">GITHUB</text>
-    <text x="400" y="258" fill="#F8FAFC">[YOUR GITHUB]</text>
+    <text x="400" y="258" fill="#F8FAFC">div-aditya-wiz</text>
     <text x="280" y="286" fill="#86EFAC">FOCUS</text>
-    <text x="400" y="286" fill="#F8FAFC">[YOUR CURRENT FOCUS]</text>
+    <text x="400" y="286" fill="#F8FAFC">B.Tech CSE | Python • Java • JavaScript • Web Development • MongoDB</text>
     <text x="280" y="314" fill="#86EFAC">STATUS</text>
     <text x="400" y="314" fill="#F8FAFC">Learning • Building • Improving</text>
   </g>
