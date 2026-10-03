@@ -71,8 +71,8 @@
   </rect>
 
   <text x="600" y="78" text-anchor="middle" fill="#86EFAC" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" letter-spacing="6">SYSTEM ONLINE</text>
-  <text x="600" y="175" text-anchor="middle" fill="#F8FAFC" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="2" filter="url(#heroGlow)">[YOUR NAME]</text>
-  <text x="600" y="222" text-anchor="middle" fill="#38BDF8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="3">[YOUR TITLE]</text>
+  <text x="600" y="175" text-anchor="middle" fill="#F8FAFC" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="2" filter="url(#heroGlow)">ADITYA KUMAR SHARMA</text>
+  <text x="600" y="222" text-anchor="middle" fill="#38BDF8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" letter-spacing="3">AI/ML Engineer | Generative AI | Machine Learning</text>
   <text x="600" y="268" text-anchor="middle" fill="#F8FAFC" opacity="0.85" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="16">Building with intention. Learning without pause. Shipping what matters.</text>
 
   <g transform="translate(600, 318)">
