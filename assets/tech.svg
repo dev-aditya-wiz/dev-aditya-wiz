@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" role="img" aria-label="Animated technology stack">
+  <defs>
+    <linearGradient id="tStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="50%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#86EFAC"/>
+    </linearGradient>
+    <linearGradient id="tFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="720" rx="24" fill="#000000"/>
+  <rect x="1.5" y="1.5" width="1097" height="717" rx="23" fill="none" stroke="url(#tStroke)" stroke-width="1.8"/>
+
+  <text x="40" y="48" fill="#38BDF8" font-size="12" letter-spacing="4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">STACK MATRIX</text>
+  <text x="40" y="82" fill="#F8FAFC" font-size="26" font-weight="700" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">Tools I work with</text>
+
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="40" y="110" width="500" height="170" rx="18" fill="url(#tFill)" stroke="#2563EB">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="64" y="148" fill="#86EFAC" font-size="14" letter-spacing="2">LANGUAGES</text>
+    <text x="64" y="186" fill="#F8FAFC" font-size="18">Python | C++ | Java | JavaScript</text>
+    <text x="64" y="218" fill="#38BDF8" font-size="13">Core syntax. Core reasoning. Core craft.</text>
+
+    <rect x="560" y="110" width="500" height="170" rx="18" fill="url(#tFill)" stroke="#38BDF8">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="584" y="148" fill="#86EFAC" font-size="14" letter-spacing="2">FRONTEND</text>
+    <text x="584" y="186" fill="#F8FAFC" font-size="18">HTML | CSS | Bootstrap | React | Next.js</text>
+    <text x="584" y="218" fill="#38BDF8" font-size="13">Interfaces that feel alive and usable.</text>
+
+    <rect x="40" y="300" width="500" height="170" rx="18" fill="url(#tFill)" stroke="#86EFAC">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+    </rect>
+    <text x="64" y="338" fill="#86EFAC" font-size="14" letter-spacing="2">BACKEND</text>
+    <text x="64" y="376" fill="#F8FAFC" font-size="18">Node.js | Express</text>
+    <text x="64" y="408" fill="#38BDF8" font-size="13">APIs, services, and server logic.</text>
+
+    <rect x="560" y="300" width="500" height="170" rx="18" fill="url(#tFill)" stroke="#2563EB">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="584" y="338" fill="#86EFAC" font-size="14" letter-spacing="2">DATABASE</text>
+    <text x="584" y="376" fill="#F8FAFC" font-size="18">MySQL | MongoDB</text>
+    <text x="584" y="408" fill="#38BDF8" font-size="13">Structured and document data stores.</text>
+
+    <rect x="40" y="490" width="500" height="190" rx="18" fill="url(#tFill)" stroke="#38BDF8">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="1.6s" repeatCount="indefinite"/>
+    </rect>
+    <text x="64" y="528" fill="#86EFAC" font-size="14" letter-spacing="2">TOOLS AND APIS</text>
+    <text x="64" y="566" fill="#F8FAFC" font-size="18">Git | GitHub | REST APIs | API Integration</text>
+    <text x="64" y="598" fill="#38BDF8" font-size="13">Version control, collaboration, and data flow.</text>
+
+    <rect x="560" y="490" width="500" height="190" rx="18" fill="url(#tFill)" stroke="#86EFAC">
+      <animate attributeName="stroke-opacity" values="0.45;1;0.45" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="584" y="528" fill="#86EFAC" font-size="14" letter-spacing="2">DESIGN</text>
+    <text x="584" y="566" fill="#F8FAFC" font-size="18">Figma</text>
+    <text x="584" y="598" fill="#38BDF8" font-size="13">Layout, systems, and visual intent.</text>
+  </g>
+</svg>

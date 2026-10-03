@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" role="img" aria-label="Development ideology timeline">
+  <defs>
+    <linearGradient id="track" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#86EFAC"/>
+    </linearGradient>
+    <filter id="nodeGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="cardFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1100" height="640" rx="24" fill="#000000"/>
+  <rect x="1.5" y="1.5" width="1097" height="637" rx="23" fill="none" stroke="#2563EB" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <text x="48" y="48" fill="#38BDF8" font-size="13" letter-spacing="4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">PROTOCOL</text>
+  <text x="48" y="84" fill="#F8FAFC" font-size="28" font-weight="700" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">How I build</text>
+  <text x="48" y="112" fill="#86EFAC" font-size="14" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">A living system - not a static list.</text>
+
+  <line x1="70" y1="150" x2="70" y2="600" stroke="url(#track)" stroke-width="3" stroke-linecap="round"/>
+
+  <circle r="7" fill="#86EFAC" filter="url(#nodeGlow)">
+    <animateMotion dur="11s" repeatCount="indefinite" path="M70,150 L70,600"/>
+  </circle>
+  <circle r="4" fill="#38BDF8">
+    <animateMotion dur="11s" begin="0.25s" repeatCount="indefinite" path="M70,150 L70,600"/>
+  </circle>
+
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+    <g>
+      <circle cx="70" cy="168" r="8" fill="#050505" stroke="#2563EB" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="144" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#2563EB" stroke-opacity="0.7"/>
+      <text x="132" y="174" fill="#F8FAFC" font-size="16"><tspan fill="#86EFAC">01  </tspan>Learn continuously - curiosity is the core runtime.</text>
+    </g>
+    <g>
+      <circle cx="70" cy="232" r="8" fill="#050505" stroke="#38BDF8" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" begin="0.2s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="208" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#38BDF8" stroke-opacity="0.7"/>
+      <text x="132" y="238" fill="#F8FAFC" font-size="16"><tspan fill="#86EFAC">02  </tspan>Build real projects - theory is proven in production.</text>
+    </g>
+    <g>
+      <circle cx="70" cy="296" r="8" fill="#050505" stroke="#86EFAC" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="272" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#86EFAC" stroke-opacity="0.7"/>
+      <text x="132" y="302" fill="#F8FAFC" font-size="16"><tspan fill="#38BDF8">03  </tspan>Understand before memorizing - depth over shortcuts.</text>
+    </g>
+    <g>
+      <circle cx="70" cy="360" r="8" fill="#050505" stroke="#2563EB" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" begin="0.6s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="336" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#2563EB" stroke-opacity="0.7"/>
+      <text x="132" y="366" fill="#F8FAFC" font-size="16"><tspan fill="#86EFAC">04  </tspan>Write clean, maintainable code - future-you is a collaborator.</text>
+    </g>
+    <g>
+      <circle cx="70" cy="424" r="8" fill="#050505" stroke="#38BDF8" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="400" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#38BDF8" stroke-opacity="0.7"/>
+      <text x="132" y="430" fill="#F8FAFC" font-size="16"><tspan fill="#86EFAC">05  </tspan>Solve real-world problems - impact is the metric.</text>
+    </g>
+    <g>
+      <circle cx="70" cy="488" r="8" fill="#050505" stroke="#86EFAC" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" begin="1s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="464" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#86EFAC" stroke-opacity="0.7"/>
+      <text x="132" y="494" fill="#F8FAFC" font-size="16"><tspan fill="#38BDF8">06  </tspan>Collaborate and contribute - open source is a shared workshop.</text>
+    </g>
+    <g>
+      <circle cx="70" cy="552" r="8" fill="#050505" stroke="#2563EB" stroke-width="2">
+        <animate attributeName="r" values="7;10;7" dur="2.4s" begin="1.2s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="108" y="528" width="940" height="48" rx="12" fill="url(#cardFill)" stroke="#2563EB" stroke-opacity="0.7"/>
+      <text x="132" y="558" fill="#F8FAFC" font-size="16"><tspan fill="#86EFAC">07  </tspan>Improve every day - compounding beats intensity.</text>
+    </g>
+  </g>
+</svg>

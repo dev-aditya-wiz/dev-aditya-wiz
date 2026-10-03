@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 360" width="1100" height="360" role="img" aria-label="Comet activity visualization">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <filter id="cGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="360" rx="24" fill="url(#sky)"/>
+  <rect x="1.5" y="1.5" width="1097" height="357" rx="23" fill="none" stroke="#2563EB" stroke-opacity="0.5"/>
+
+  <g fill="#38BDF8">
+    <circle cx="120" cy="50" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="210" cy="90" r="1.2"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="340" cy="40" r="1.6" fill="#86EFAC"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="70" r="1.3"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="590" cy="30" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="88" r="1.2" fill="#86EFAC"><animate attributeName="opacity" values="0.1;1;0.1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="46" r="1.4"><animate attributeName="opacity" values="0.2;0.95;0.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="64" r="1.7"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="310" r="1.3"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="330" r="1.5" fill="#86EFAC"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="650" cy="300" r="1.2"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="320" r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <path d="M80,220 C220,80 420,300 600,160 C780,40 920,240 1040,120" fill="none" stroke="#2563EB" stroke-opacity="0.25" stroke-width="1.5"/>
+  <path d="M60,280 C240,200 380,80 560,210 C740,330 880,90 1060,200" fill="none" stroke="#38BDF8" stroke-opacity="0.2" stroke-width="1.5"/>
+  <path d="M40,140 C200,260 480,40 700,250 C860,360 980,80 1080,160" fill="none" stroke="#86EFAC" stroke-opacity="0.18" stroke-width="1.5"/>
+
+  <g filter="url(#cGlow)">
+    <circle r="6" fill="#86EFAC">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M80,220 C220,80 420,300 600,160 C780,40 920,240 1040,120"/>
+    </circle>
+    <circle r="10" fill="#2563EB" opacity="0.35">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M80,220 C220,80 420,300 600,160 C780,40 920,240 1040,120"/>
+    </circle>
+    <circle r="5" fill="#38BDF8">
+      <animateMotion dur="8s" repeatCount="indefinite" path="M60,280 C240,200 380,80 560,210 C740,330 880,90 1060,200"/>
+    </circle>
+    <circle r="5" fill="#86EFAC">
+      <animateMotion dur="7s" begin="1s" repeatCount="indefinite" path="M40,140 C200,260 480,40 700,250 C860,360 980,80 1080,160"/>
+    </circle>
+  </g>
+
+  <text x="48" y="48" fill="#38BDF8" font-size="12" letter-spacing="4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">COMET GRAPH</text>
+  <text x="48" y="80" fill="#F8FAFC" font-size="22" font-weight="700" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">Consistency - Activity - Growth - Progress</text>
+  <text x="48" y="108" fill="#86EFAC" font-size="13" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif">Live contribution data renders below after you replace YOUR_GITHUB_USERNAME.</text>
+
+  <g font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">
+    <rect x="48" y="310" width="140" height="28" rx="14" fill="#050505" stroke="#2563EB"/>
+    <text x="118" y="328" text-anchor="middle" fill="#38BDF8">Consistency</text>
+    <rect x="208" y="310" width="140" height="28" rx="14" fill="#050505" stroke="#38BDF8"/>
+    <text x="278" y="328" text-anchor="middle" fill="#38BDF8">Activity</text>
+    <rect x="368" y="310" width="140" height="28" rx="14" fill="#050505" stroke="#86EFAC"/>
+    <text x="438" y="328" text-anchor="middle" fill="#86EFAC">Growth</text>
+    <rect x="528" y="310" width="140" height="28" rx="14" fill="#050505" stroke="#22C55E"/>
+    <text x="598" y="328" text-anchor="middle" fill="#86EFAC">Progress</text>
+  </g>
+</svg>
