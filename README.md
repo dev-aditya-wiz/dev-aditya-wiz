@@ -1,12 +1,5 @@
-<!--
-  Replace every placeholder before publishing:
-  [YOUR NAME]  [YOUR TITLE]  [YOUR TAGLINE]  [YOUR LOCATION]
-  [YOUR GITHUB]  [YOUR_GITHUB_USERNAME]  [YOUR_EMAIL]
-  [YOUR_LINKEDIN_URL]  [YOUR_PORTFOLIO_URL]  [YOUR PROFILE IMAGE]
--->
-
 <div align="center">
-  <img src="./assets/hero.svg" alt="Animated hero — [YOUR NAME]" width="100%" />
+  <img src="./assets/hero.svg" alt="Animated hero — ADITYA KUMAR SHARMA" width="100%" />
 </div>
 
 <br/>
@@ -18,19 +11,19 @@
 <br/>
 
 <div align="center">
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/dev-aditya-wiz">
     <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=86EFAC" alt="GitHub"/>
   </a>
-  <a href="YOUR_LINKEDIN_URL">
+  <a href="https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/?isSelfProfile=true">
     <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn"/>
   </a>
-  <a href="mailto:YOUR_EMAIL">
+  <a href="mailto:aditya.0.kumar.sharma@gmail.com">
     <img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=86EFAC" alt="Email"/>
   </a>
   <a href="YOUR_PORTFOLIO_URL">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile+views&color=2563eb&style=for-the-badge" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=dev-aditya-wiz&label=Profile+views&color=2563eb&style=for-the-badge" alt="Profile views"/>
 </div>
 
 <div align="center">
@@ -38,7 +31,7 @@
 </div>
 
 <div align="center">
-  <img src="./assets/id-card.svg" alt="Developer identity card for [YOUR NAME]" width="100%" />
+  <img src="./assets/id-card.svg" alt="Developer identity card for ADITYA KUMAR SHARMA" width="100%" />
 </div>
 
 <div align="center">
@@ -51,11 +44,9 @@
 
 ### Short introduction
 
-I am **[YOUR NAME]** — **[YOUR TITLE]** based in **[YOUR LOCATION]**.
-
-I learn by building. I care about clean systems, real problems, and work that compounds over time.
-
-Current focus: **[YOUR CURRENT FOCUS]**
+I am **Aditya Kr. Sharma** — **Aspiring AI/ML Engineer** based in **Bokaro Steel City, Jharkhand**.
+I learn by building, experiment through projects, and focus on creating clean, practical systems that solve real problems.
+**Current focus: Python, Web Development, Machine Learning, and Generative AI.**
 
 <div align="center">
   <img src="./assets/terminal.svg" alt="Animated terminal whoami" width="720" />
@@ -78,7 +69,7 @@ Current focus: **[YOUR CURRENT FOCUS]**
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&bg_color=000000&color=86EFAC&line=2563EB&point=38BDF8&area=true&area_color=2563EB&hide_border=true" alt="GitHub contribution activity graph" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dev-aditya-wiz&bg_color=000000&color=86EFAC&line=2563EB&point=38BDF8&area=true&area_color=2563EB&hide_border=true" alt="GitHub contribution activity graph" width="100%" />
 </div>
 
 <div align="center">
@@ -149,17 +140,15 @@ Placeholder cards only — replace with real projects when you are ready to publ
 
 ### GitHub activity
 
-Live stats from GitHub. Replace `YOUR_GITHUB_USERNAME` so the graphs resolve to your account. No numbers are hardcoded here.
-
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=transparent&hide_border=true&bg_color=000000&title_color=38BDF8&text_color=F8FAFC&icon_color=86EFAC&ring_color=2563EB&include_all_commits=true" alt="GitHub stats"/>
-  <img height="180" src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&background=000000&ring=2563EB&fire=86EFAC&currStreakNum=38BDF8&sideNums=86EFAC&currStreakLabel=38BDF8&sideLabels=F8FAFC&dates=86EFAC&stroke=2563EB&hide_border=true" alt="GitHub streak"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=dev-aditya-wiz&show_icons=true&theme=transparent&hide_border=true&bg_color=000000&title_color=38BDF8&text_color=F8FAFC&icon_color=86EFAC&ring_color=2563EB&include_all_commits=true" alt="GitHub stats"/>
+  <img height="180" src="https://streak-stats.demolab.com?user=dev-aditya-wiz&background=000000&ring=2563EB&fire=86EFAC&currStreakNum=38BDF8&sideNums=86EFAC&currStreakLabel=38BDF8&sideLabels=F8FAFC&dates=86EFAC&stroke=2563EB&hide_border=true" alt="GitHub streak"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&hide_border=true&bg_color=000000&title_color=38BDF8&text_color=F8FAFC&langs_count=8" alt="Top languages" width="420"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dev-aditya-wiz&layout=compact&hide_border=true&bg_color=000000&title_color=38BDF8&text_color=F8FAFC&langs_count=8" alt="Top languages" width="420"/>
 </div>
 
 <div align="center">
@@ -170,13 +159,13 @@ Live stats from GitHub. Replace `YOUR_GITHUB_USERNAME` so the graphs resolve to 
 
 ### Contact
 
-<a href="https://github.com/YOUR_GITHUB_USERNAME">
+<a href="https://github.com/dev-aditya-wiz">
   <img src="https://img.shields.io/badge/%20GitHub-000000?style=for-the-badge&logo=github&logoColor=86EFAC" alt="GitHub"/>
 </a>
-<a href="YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/aditya-kumar-sharma-63b842414/?isSelfProfile=true">
   <img src="https://img.shields.io/badge/%20LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=38BDF8" alt="LinkedIn"/>
 </a>
-<a href="mailto:YOUR_EMAIL">
+<a href="mailto:aditya.0.kumar.sharma@gmail.com">
   <img src="https://img.shields.io/badge/%20Email-000000?style=for-the-badge&logo=gmail&logoColor=86EFAC" alt="Email"/>
 </a>
 <a href="YOUR_PORTFOLIO_URL">
