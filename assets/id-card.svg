@@ -92,33 +92,24 @@
           stroke="#86EFAC"
           stroke-width="1.5"/>
 
-  <g clip-path="url(#photoClip)">
-    <image
-      href="Blue_monster.jpeg"
-      x="78"
-      y="96"
-      width="144"
-      height="144"
-      preserveAspectRatio="xMidYMid slice"
-    />
+<g clip-path="url(#photoClip)">
+  <image
+    href="Blue_monster.jpeg"
+    x="78"
+    y="96"
+    width="144"
+    height="144"
+    preserveAspectRatio="xMidYMid slice"
+  />
+</g>
 
-    <rect x="78" y="210" width="144" height="18"
-          fill="#38BDF8"
-          opacity="0.18">
-      <animate attributeName="y"
-               values="96;230;96"
-               dur="3.4s"
-               repeatCount="indefinite"/>
-    </rect>
-  </g>
-
-  <text x="150" y="268"
-        text-anchor="middle"
-        fill="#86EFAC"
-        font-size="10"
-        font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
-    Aditya
-  </text>
+<text x="150" y="268"
+      text-anchor="middle"
+      fill="#86EFAC"
+      font-size="10"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+  Aditya
+</text>
 
   <text x="280" y="118"
         fill="#F8FAFC"
