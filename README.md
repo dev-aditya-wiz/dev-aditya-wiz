@@ -23,7 +23,6 @@
   <a href="YOUR_PORTFOLIO_URL">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=dev-aditya-wiz&label=Profile+views&color=2563eb&style=for-the-badge" alt="Profile views"/>
 </div>
 
 <div align="center">
