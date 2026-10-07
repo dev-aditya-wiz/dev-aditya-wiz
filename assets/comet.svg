@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="368" viewBox="0 0 1100 368" fill="none">
+<style>
+  .flow { stroke-dasharray: 9 18; animation: flow 2.8s linear infinite; }
+  .flow-slow { stroke-dasharray: 14 22; animation: flow 7s linear infinite; }
+  @keyframes flow { to { stroke-dashoffset: -108; } }
+  .traveler { offset-path: path("M40 210 C 180 120, 280 250, 460 190 S 760 120, 1060 150"); animation: travel 9s linear infinite; }
+  .traveler-b { offset-path: path("M40 250 C 220 180, 340 300, 540 230 S 820 300, 1060 200"); animation: travel 12s linear infinite; }
+  @keyframes travel { from { offset-distance: 0% } to { offset-distance: 100% } }
+</style>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="55%" stop-color="#6DFF6A"/>
+    <stop offset="100%" stop-color="#3ED0E8"/>
+  </linearGradient>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1.25" y="1.25" width="1097.5" height="365.5" rx="22" fill="#07040E"/>
+<rect x="1.25" y="1.25" width="1097.5" height="365.5" rx="22" stroke="url(#edge)" stroke-width="1.5"/>
+<text x="40" y="52" fill="#3ED0E8" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="3.5">COMET GRAPH</text>
+<text x="40" y="98" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="32" font-weight="700">Consistency  ·  Activity  ·  Growth  ·  Progress</text>
+<text x="40" y="132" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Live contribution data for dev-aditya-wiz renders under this mark.</text>
+<path class="flow" d="M40 210 C 180 120, 280 250, 460 190 S 760 120, 1060 150" stroke="#22D3EE" stroke-width="2.2" fill="none"/>
+<path class="flow-slow" d="M40 250 C 220 180, 340 300, 540 230 S 820 300, 1060 200" stroke="#6DFF6A" stroke-width="2" fill="none"/>
+<path d="M40 180 C 200 240, 400 140, 640 210 S 900 260, 1060 170" stroke="#C4B5FD" stroke-width="1.6" fill="none" opacity="0.55"/>
+<circle class="traveler" r="6" fill="#9AE8F5" filter="url(#soft)"/>
+<circle class="traveler-b" r="4.5" fill="#6DFF6A" filter="url(#soft)"/>
+<rect x="48" y="300" width="150" height="38" rx="19" fill="#07040E" stroke="#22D3EE" stroke-width="1.5"/>
+<text x="123" y="324" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Consistency</text>
+<rect x="214" y="300" width="120" height="38" rx="19" fill="#07040E" stroke="#3ED0E8" stroke-width="1.5"/>
+<text x="274" y="324" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Activity</text>
+<rect x="350" y="300" width="118" height="38" rx="19" fill="#07040E" stroke="#6DFF6A" stroke-width="1.5"/>
+<text x="409" y="324" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Growth</text>
+<rect x="484" y="300" width="124" height="38" rx="19" fill="#07040E" stroke="#6DFF6A" stroke-width="1.5"/>
+<text x="546" y="324" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Progress</text>
+</svg>

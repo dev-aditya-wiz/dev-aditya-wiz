@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" fill="none">
+<style>
+  .glow-a { animation: breathe 7s ease-in-out infinite; }
+  .glow-b { animation: breathe 9s ease-in-out infinite reverse; }
+  .glow-c { animation: breathe 8.5s ease-in-out infinite; }
+  @keyframes breathe { 0%, 100% { opacity: 0.18 } 50% { opacity: 0.5 } }
+  .arrive { animation: arrive 1.15s ease both; }
+  @keyframes arrive { from { opacity: 0 } to { opacity: 1 } }
+</style>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="55%" stop-color="#6DFF6A"/>
+    <stop offset="100%" stop-color="#3ED0E8"/>
+  </linearGradient>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1.25" y="1.25" width="1097.5" height="317.5" rx="22" fill="#07040E"/>
+<rect x="1.25" y="1.25" width="1097.5" height="317.5" rx="22" stroke="url(#edge)" stroke-width="1.5"/>
+<ellipse class="glow-a" cx="160" cy="36" rx="240" ry="110" fill="#0891B2" filter="url(#soft)"/>
+<ellipse class="glow-b" cx="940" cy="28" rx="250" ry="120" fill="#39FF6A" filter="url(#soft)"/>
+<ellipse class="glow-c" cx="560" cy="20" rx="280" ry="80" fill="#6D28D9" filter="url(#soft)"/>
+<text class="arrive" x="550" y="78" text-anchor="middle" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="650" letter-spacing="4.5">SYSTEM ONLINE</text>
+<text class="arrive" x="550" y="138" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="700" style="animation-delay: .15s">Aditya Kumar Sharma</text>
+<text x="550" y="176" text-anchor="middle" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">Computer Science Student</text>
+<text x="550" y="214" text-anchor="middle" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15">Building with intention. Learning without pause. Shipping what matters.</text>
+<rect x="318" y="246" width="132" height="40" rx="20" fill="#07040E" stroke="#6DFF6A" stroke-width="1.5"/>
+<text x="384" y="271" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Developer</text>
+<rect x="466" y="246" width="118" height="40" rx="20" fill="#07040E" stroke="#3ED0E8" stroke-width="1.5"/>
+<text x="525" y="271" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Builder</text>
+<rect x="600" y="246" width="118" height="40" rx="20" fill="#07040E" stroke="#6DFF6A" stroke-width="1.5"/>
+<text x="659" y="271" text-anchor="middle" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">Learner</text>
+</svg>

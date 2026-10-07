@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="744" viewBox="0 0 1100 744" fill="none">
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="55%" stop-color="#6DFF6A"/>
+    <stop offset="100%" stop-color="#3ED0E8"/>
+  </linearGradient>
+</defs>
+<rect x="1.25" y="1.25" width="1097.5" height="741.5" rx="22" fill="#07040E"/>
+<rect x="1.25" y="1.25" width="1097.5" height="741.5" rx="22" stroke="url(#edge)" stroke-width="1.5"/>
+<text x="40" y="52" fill="#3ED0E8" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4">STACK MATRIX</text>
+<text x="40" y="98" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="700">Tools I work with</text>
+<text x="40" y="134" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="16">The set I reach for when a project has to leave the notebook.</text>
+<rect x="36" y="168" width="505" height="168" rx="18" fill="#07040E" stroke="#3ED0E8" stroke-width="1.35"/>
+<text x="64" y="210" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">LANGUAGES</text>
+<text x="64" y="252" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Python  |  C++  |  Java  |  JavaScript</text>
+<text x="64" y="286" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Core syntax. Core reasoning. Core craft.</text>
+<rect x="559" y="168" width="505" height="168" rx="18" fill="#07040E" stroke="#3ED0E8" stroke-width="1.35"/>
+<text x="587" y="210" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">FRONTEND</text>
+<text x="587" y="252" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">HTML  |  CSS  |  Bootstrap  |  React  |  Next.js</text>
+<text x="587" y="286" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Interfaces that feel alive and usable.</text>
+<rect x="36" y="354" width="505" height="168" rx="18" fill="#07040E" stroke="#6DFF6A" stroke-width="1.35"/>
+<text x="64" y="396" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">BACKEND</text>
+<text x="64" y="438" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Node.js  |  Express</text>
+<text x="64" y="472" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">APIs, services, and server logic.</text>
+<rect x="559" y="354" width="505" height="168" rx="18" fill="#07040E" stroke="#3ED0E8" stroke-width="1.35"/>
+<text x="587" y="396" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">DATABASE</text>
+<text x="587" y="438" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">MySQL  |  MongoDB</text>
+<text x="587" y="472" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Structured and document data stores.</text>
+<rect x="36" y="540" width="505" height="168" rx="18" fill="#07040E" stroke="#3ED0E8" stroke-width="1.35"/>
+<text x="64" y="582" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">TOOLS AND APIS</text>
+<text x="64" y="624" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Git  |  GitHub  |  REST APIs  |  API Integration</text>
+<text x="64" y="658" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Version control, collaboration, and data flow.</text>
+<rect x="559" y="540" width="505" height="168" rx="18" fill="#07040E" stroke="#6DFF6A" stroke-width="1.35"/>
+<text x="587" y="582" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1.6">DESIGN</text>
+<text x="587" y="624" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700">Figma</text>
+<text x="587" y="658" fill="#9AE8F5" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Layout, systems, and visual intent.</text>
+</svg>

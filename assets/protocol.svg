@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="840" viewBox="0 0 1100 840" fill="none">
+<style>
+  .live { transform-box: fill-box; transform-origin: center; animation: beat 2.2s ease-in-out infinite; }
+  @keyframes beat { 0%, 100% { transform: scale(1); opacity: 1 } 50% { transform: scale(1.45); opacity: 0.65 } }
+</style>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#A855F7"/>
+    <stop offset="55%" stop-color="#6DFF6A"/>
+    <stop offset="100%" stop-color="#3ED0E8"/>
+  </linearGradient>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="1.25" y="1.25" width="1097.5" height="837.5" rx="22" fill="#07040E"/>
+<rect x="1.25" y="1.25" width="1097.5" height="837.5" rx="22" stroke="url(#edge)" stroke-width="1.5"/>
+<text x="40" y="52" fill="#3ED0E8" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4">PROTOCOL</text>
+<text x="40" y="98" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="700">How I build</text>
+<text x="40" y="132" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="16">A living system — not a static list.</text>
+<circle class="live" cx="46" cy="200" r="8" fill="#6DFF6A" filter="url(#soft)"/>
+<rect x="78" y="168" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-width="1.25"/>
+<text x="104" y="214" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">01</tspan><tspan fill="#F7F7FB" font-weight="600">  Learn continuously</tspan><tspan fill="#DDD6E8" font-weight="500">  —  curiosity is the core runtime.</tspan></text>
+<circle cx="46" cy="292" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="260" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
+<text x="104" y="306" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">02</tspan><tspan fill="#F7F7FB" font-weight="600">  Build real projects</tspan><tspan fill="#DDD6E8" font-weight="500">  —  theory is proven in production.</tspan></text>
+<circle cx="46" cy="384" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
+<rect x="78" y="352" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-width="1.25"/>
+<text x="104" y="398" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">03</tspan><tspan fill="#F7F7FB" font-weight="600">  Understand before memorizing</tspan><tspan fill="#DDD6E8" font-weight="500">  —  depth over shortcuts.</tspan></text>
+<circle cx="46" cy="476" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="444" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
+<text x="104" y="490" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">04</tspan><tspan fill="#F7F7FB" font-weight="600">  Write clean, maintainable code</tspan><tspan fill="#DDD6E8" font-weight="500">  —  future-you is a collaborator.</tspan></text>
+<circle cx="46" cy="568" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="536" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
+<text x="104" y="582" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">05</tspan><tspan fill="#F7F7FB" font-weight="600">  Solve real-world problems</tspan><tspan fill="#DDD6E8" font-weight="500">  —  impact is the metric.</tspan></text>
+<circle cx="46" cy="660" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
+<rect x="78" y="628" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-width="1.25"/>
+<text x="104" y="674" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">06</tspan><tspan fill="#F7F7FB" font-weight="600">  Collaborate and contribute</tspan><tspan fill="#DDD6E8" font-weight="500">  —  open source is a shared workshop.</tspan></text>
+<circle cx="46" cy="752" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="720" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
+<text x="104" y="766" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">07</tspan><tspan fill="#F7F7FB" font-weight="600">  Improve every day</tspan><tspan fill="#DDD6E8" font-weight="500">  —  compounding beats intensity.</tspan></text>
+</svg>
