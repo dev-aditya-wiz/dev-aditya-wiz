@@ -1,43 +1,150 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1100" height="840" viewBox="0 0 1100 840" fill="none">
+
 <style>
+  .glow-a { animation: breathe 7s ease-in-out infinite; }
+  .glow-b { animation: breathe 9s ease-in-out infinite reverse; }
+  .glow-c { animation: breathe 8.5s ease-in-out infinite; }
+  @keyframes breathe { 0%, 100% { opacity: 0.18 } 50% { opacity: 0.5 } }
+  .arrive { animation: arrive 1.15s ease both; }
+  @keyframes arrive { from { opacity: 0 } to { opacity: 1 } }
+  .blink { animation: blink 1.15s steps(1, end) infinite; }
+  @keyframes blink { 0%, 46% { opacity: 1 } 50%, 100% { opacity: 0 } }
+  .flow { stroke-dasharray: 9 18; animation: flow 2.8s linear infinite; }
+  .flow-slow { stroke-dasharray: 14 22; animation: flow 7s linear infinite; }
+  @keyframes flow { to { stroke-dashoffset: -108; } }
+  .ring { animation: ring 2.6s ease-in-out infinite; }
+  @keyframes ring { 0%, 100% { stroke-opacity: 1 } 50% { stroke-opacity: 0.28 } }
+  .orbit { transform-box: fill-box; transform-origin: center; animation: orbit 5.5s linear infinite; }
+  @keyframes orbit { to { transform: rotate(360deg); } }
+  .halo { transform-box: fill-box; transform-origin: center; animation: halo 2.2s ease-out infinite; }
+  @keyframes halo { 0% { transform: scale(0.94); opacity: 0.75 } 80% { opacity: 0 } 100% { transform: scale(1.42); opacity: 0 } }
   .live { transform-box: fill-box; transform-origin: center; animation: beat 2.2s ease-in-out infinite; }
   @keyframes beat { 0%, 100% { transform: scale(1); opacity: 1 } 50% { transform: scale(1.45); opacity: 0.65 } }
+  .traveler { offset-path: path("M40 210 C 180 120, 280 250, 460 190 S 760 120, 1060 150"); animation: travel 9s linear infinite; }
+  .traveler-b { offset-path: path("M40 250 C 220 180, 340 300, 540 230 S 820 300, 1060 200"); animation: travel 12s linear infinite; }
+  @keyframes travel { from { offset-distance: 0% } to { offset-distance: 100% } }
+  .sheen { animation: sheen 4.2s ease-in-out infinite; }
+  @keyframes sheen { 0% { transform: translateX(-140px); opacity: 0 } 18% { opacity: 0.85 } 82% { opacity: 0.85 } 100% { transform: translateX(1120px); opacity: 0 } }
+  .comet, .comet-2, .comet-3 { animation: comet 10.5s linear infinite; }
+  .comet-2 { animation-delay: -0.22s; opacity: 0.5; }
+  .comet-3 { animation-delay: -0.44s; opacity: 0.22; }
+  @keyframes comet {
+    0%, 8% { cy: 200px; }
+    14.28%, 22.3% { cy: 292px; }
+    28.57%, 36.6% { cy: 384px; }
+    42.86%, 50.9% { cy: 476px; }
+    57.14%, 65.1% { cy: 568px; }
+    71.43%, 79.4% { cy: 660px; }
+    85.71%, 100% { cy: 752px; }
+  }
+  .station { transform-box: fill-box; transform-origin: center; animation: absorb 10.5s linear infinite; }
+  .station-1 { animation-delay: -1.5s; }
+  .station-2 { animation-delay: -3s; }
+  .station-3 { animation-delay: -4.5s; }
+  .station-4 { animation-delay: -6s; }
+  .station-5 { animation-delay: -7.5s; }
+  .station-6 { animation-delay: -9s; }
+  @keyframes absorb {
+    0%, 9% { transform: scale(1.45); stroke: #6DFF6A; stroke-width: 2.4; }
+    16%, 100% { transform: scale(1); stroke-width: 1.6; }
+  }
 </style>
+
+
 <defs>
   <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#A855F7"/>
     <stop offset="55%" stop-color="#6DFF6A"/>
     <stop offset="100%" stop-color="#3ED0E8"/>
   </linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#07040E" stop-opacity="0"/>
+    <stop offset="45%" stop-color="#3B0764"/>
+    <stop offset="100%" stop-color="#5B21B6"/>
+  </linearGradient>
   <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
     <feGaussianBlur stdDeviation="8" result="b"/>
-    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <feMerge>
+      <feMergeNode in="b"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <filter id="textglow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur stdDeviation="2.2" result="b"/>
+    <feMerge>
+      <feMergeNode in="b"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
   </filter>
 </defs>
+
+
 <rect x="1.25" y="1.25" width="1097.5" height="837.5" rx="22" fill="#07040E"/>
 <rect x="1.25" y="1.25" width="1097.5" height="837.5" rx="22" stroke="url(#edge)" stroke-width="1.5"/>
+
 <text x="40" y="52" fill="#3ED0E8" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="4">PROTOCOL</text>
 <text x="40" y="98" fill="#F7F7FB" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="36" font-weight="700">How I build</text>
 <text x="40" y="132" fill="#6DFF6A" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="16">A living system — not a static list.</text>
-<circle class="live" cx="46" cy="200" r="8" fill="#6DFF6A" filter="url(#soft)"/>
-<rect x="78" y="168" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-width="1.25"/>
-<text x="104" y="214" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">01</tspan><tspan fill="#F7F7FB" font-weight="600">  Learn continuously</tspan><tspan fill="#DDD6E8" font-weight="500">  —  curiosity is the core runtime.</tspan></text>
-<circle cx="46" cy="292" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
-<rect x="78" y="260" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
-<text x="104" y="306" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">02</tspan><tspan fill="#F7F7FB" font-weight="600">  Build real projects</tspan><tspan fill="#DDD6E8" font-weight="500">  —  theory is proven in production.</tspan></text>
-<circle cx="46" cy="384" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
-<rect x="78" y="352" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-width="1.25"/>
-<text x="104" y="398" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">03</tspan><tspan fill="#F7F7FB" font-weight="600">  Understand before memorizing</tspan><tspan fill="#DDD6E8" font-weight="500">  —  depth over shortcuts.</tspan></text>
-<circle cx="46" cy="476" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
-<rect x="78" y="444" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
-<text x="104" y="490" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">04</tspan><tspan fill="#F7F7FB" font-weight="600">  Write clean, maintainable code</tspan><tspan fill="#DDD6E8" font-weight="500">  —  future-you is a collaborator.</tspan></text>
-<circle cx="46" cy="568" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
-<rect x="78" y="536" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
-<text x="104" y="582" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">05</tspan><tspan fill="#F7F7FB" font-weight="600">  Solve real-world problems</tspan><tspan fill="#DDD6E8" font-weight="500">  —  impact is the metric.</tspan></text>
-<circle cx="46" cy="660" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
-<rect x="78" y="628" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-width="1.25"/>
-<text x="104" y="674" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">06</tspan><tspan fill="#F7F7FB" font-weight="600">  Collaborate and contribute</tspan><tspan fill="#DDD6E8" font-weight="500">  —  open source is a shared workshop.</tspan></text>
-<circle cx="46" cy="752" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
-<rect x="78" y="720" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-width="1.25"/>
-<text x="104" y="766" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18"><tspan fill="#9AE8F5" font-weight="700">07</tspan><tspan fill="#F7F7FB" font-weight="600">  Improve every day</tspan><tspan fill="#DDD6E8" font-weight="500">  —  compounding beats intensity.</tspan></text>
+<line x1="46" y1="200" x2="46" y2="752" stroke="#6DFF6A" stroke-opacity="0.28" stroke-width="1.5"/>
+
+<circle class="station station-0" cx="46" cy="200" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
+<rect x="78" y="168" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="214" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">01</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Learn continuously</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  curiosity is the core runtime.</tspan>
+</text>
+
+<circle class="station station-1" cx="46" cy="292" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="260" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="306" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">02</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Build real projects</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  theory is proven in production.</tspan>
+</text>
+
+<circle class="station station-2" cx="46" cy="384" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
+<rect x="78" y="352" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="398" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">03</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Understand before memorizing</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  depth over shortcuts.</tspan>
+</text>
+
+<circle class="station station-3" cx="46" cy="476" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="444" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="490" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">04</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Write clean, maintainable code</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  future-you is a collaborator.</tspan>
+</text>
+
+<circle class="station station-4" cx="46" cy="568" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="536" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="582" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">05</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Solve real-world problems</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  impact is the metric.</tspan>
+</text>
+
+<circle class="station station-5" cx="46" cy="660" r="7" fill="none" stroke="#6DFF6A" stroke-width="1.6"/>
+<rect x="78" y="628" width="982" height="76" rx="16" fill="#07040E" stroke="#6DFF6A" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="674" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">06</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Collaborate and contribute</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  open source is a shared workshop.</tspan>
+</text>
+
+<circle class="station station-6" cx="46" cy="752" r="7" fill="none" stroke="#3ED0E8" stroke-width="1.6"/>
+<rect x="78" y="720" width="982" height="76" rx="16" fill="#07040E" stroke="#3ED0E8" stroke-opacity="0.85" stroke-width="1.25"/>
+<text x="104" y="766" font-family="ui-sans-serif, Segoe UI, Helvetica, Arial, sans-serif" font-size="18">
+  <tspan fill="#9AE8F5" font-weight="700">07</tspan>
+  <tspan fill="#F7F7FB" font-weight="600">  Improve every day</tspan>
+  <tspan fill="#DDD6E8" font-weight="500">  —  compounding beats intensity.</tspan>
+</text>
+
+<circle class="comet-3" cx="46" cy="200" r="3.5" fill="#6DFF6A"/>
+<circle class="comet-2" cx="46" cy="200" r="4.5" fill="#6DFF6A"/>
+<circle class="comet" cx="46" cy="200" r="6.5" fill="#6DFF6A" filter="url(#soft)"/>
+
 </svg>

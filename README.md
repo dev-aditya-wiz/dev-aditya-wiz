@@ -34,7 +34,7 @@
 <br/>
 
 <div align="center">
-  <img src="./assets/id-card.png" alt="Identity card. Aditya Kumar Sharma, computer science student in India. GitHub dev-aditya-wiz. Focus: AI, machine learning, and web. Status: learning, building, improving." width="100%" />
+  <img src="./assets/id-card.svg" alt="Identity card. Aditya Kumar Sharma, computer science student in India. GitHub dev-aditya-wiz. Focus: AI, machine learning, and web. Status: learning, building, improving." width="100%" />
 </div>
 
 <br/>
