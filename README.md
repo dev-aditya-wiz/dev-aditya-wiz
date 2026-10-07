@@ -39,7 +39,7 @@
 
 <br/>
 
-### About
+## About
 
 I'm **Aditya Kumar Sharma**, a computer science student in India.
 
